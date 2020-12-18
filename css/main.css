@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#accueil{
+    background: url("../assets/img/esatic/computer.jpg") no-repeat;
+    background-size: cover;
+
+}
+#accueil h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+#accueil .cta {
+    display: inline-block;
+    padding: 10px 200px;
+    color: white;
+    background-image: linear-gradient(to right, #ebda45,#ff6106);
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-top: 20px;
+    transition: -3s ease;
+    transition-property: background-color color;
+}
+#accueil .cta:hover {
+    color: white;
+    background-image: linear-gradient(to right, #e0cb0c,#25ec50);
+}
